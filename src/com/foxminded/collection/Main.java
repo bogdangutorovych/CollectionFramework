@@ -11,26 +11,24 @@ public class Main {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Input initial text: ");
 		String inputText = s.nextLine();
-
-		System.out.println("String: " + inputText + " - " + collectionFramework.checkMap(inputText));
 		
-		String string = "";
-		System.out.println("String: " + string + " - " + collectionFramework.checkMap(string));
+		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(inputText));
 		
-		System.out.println("String: " + inputText + " - " + collectionFramework.checkMap(inputText));
+		String string = " ";
+		System.out.println(string);
+		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(string));
 		
-		string = "asdf qwer";
-		System.out.println("String: " + string + " - " + collectionFramework.checkMap(string));
+		string = inputText;
+		System.out.println(string);
+		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(string));
 		
-		string = "asdf qwerrrrrr";
-		System.out.println("String: " + string + " - " + collectionFramework.checkMap(string));
+		string = "hello world";
+		System.out.println(string);
+		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(string));
 		
-		string = "asdf qwerrrrrr";
-		System.out.println("String: " + string + " - " + collectionFramework.checkMap(string));
-		
-		string = "asdf    ";
-		System.out.println("String: " + string + " - " + collectionFramework.checkMap(string));
-		
+		string = "hello new world";
+		System.out.println(string);
+		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(string));
 	}
 
 }
