@@ -12,23 +12,23 @@ public class Main {
 		System.out.println("Input initial text: ");
 		String inputText = s.nextLine();
 		
-		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(inputText));
+		collectionFramework.printMap(collectionFramework.findUniqueSymbolNumber(inputText));
 		
 		String string = " ";
 		System.out.println(string);
-		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(string));
+		collectionFramework.printMap(collectionFramework.findUniqueSymbolNumber(string));
 		
 		string = inputText;
 		System.out.println(string);
-		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(string));
+		collectionFramework.printMap(collectionFramework.findUniqueSymbolNumber(string));
 		
 		string = "hello world";
 		System.out.println(string);
-		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(string));
+		collectionFramework.printMap(collectionFramework.findUniqueSymbolNumber(string));
 		
 		string = "hello new world";
 		System.out.println(string);
-		collectionFramework.printMap(collectionFramework.receiveUniqueSymbolNumber(string));
+		collectionFramework.printMap(collectionFramework.findUniqueSymbolNumber(string));
 	}
 
 }

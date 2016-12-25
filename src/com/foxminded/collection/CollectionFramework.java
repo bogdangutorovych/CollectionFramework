@@ -11,7 +11,7 @@ public class CollectionFramework {
 		this.map = new HashMap<String, Map<Character, Integer>>();
 	}
 
-	public Map<Character, Integer> receiveUniqueSymbolNumber(String string) {
+	public Map<Character, Integer> findUniqueSymbolNumber(String string) {
 		if (this.map.containsKey(string)) {
 			return this.map.get(string);
 		}
